@@ -37,18 +37,6 @@ import java.io.Serializable;
      @JsonProperty("name")
      public String name;
 
-//     public Vehicles(String archived_at, int account_id, int id, String vehicle_type_name, String license_plate, String make, String model, String color, String name) {
-//         this.archived_at = archived_at;
-//         this.account_id = account_id;
-//         this.id = id;
-//         this.vehicle_type_name = vehicle_type_name;
-//         this.license_plate = license_plate;
-//         this.make = make;
-//         this.model = model;
-//         this.color = color;
-//         this.name = name;
-//     }
-
      // getters and setters for class attributes
      public String getVehicleType() {
          return vehicle_type_name;
