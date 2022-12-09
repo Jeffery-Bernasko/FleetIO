@@ -1,0 +1,22 @@
+2022-12-09 11:42:31 INFO  Example:20 - Hello this is an info message
+  2022-12-09 12:11:17 DEBUG Example:19 - Hello this is a debug message
+  2022-12-09 12:11:17 INFO  Example:20 - Hello this is an info message
+  2022-12-09 12:11:38 DEBUG Example:19 - Hello this is a debug message
+  2022-12-09 12:11:38 INFO  Example:20 - Hello this is an info message
+  2022-12-09 12:16:30 INFO  Main:20 - Sending a request
+  2022-12-09 12:20:13 DEBUG Main:21 - Sending a GET request to the fleetio API
+  2022-12-09 12:20:13 INFO  Main:30 - Request was successful
+  2022-12-09 14:19:22 DEBUG Main:21 - Sending a GET request to the fleetio API
+  2022-12-09 14:19:22 INFO  Main:30 - Request was successful
+  2022-12-09 14:19:22 DEBUG Main:34 - Receive response as a string
+  2022-12-09 14:19:26 INFO  Main:38 - Response received successfully as a string
+  2022-12-09 14:19:26 DEBUG Main:42 - Store response in a variable
+  2022-12-09 14:19:26 INFO  Main:46 - Response of the body successfully saved in a variable
+  2022-12-09 14:19:26 DEBUG Main:50 - Structure data to human readable format
+  2022-12-09 14:19:26 INFO  Main:58 - Successfully structured data
+  2022-12-09 14:19:26 DEBUG Main:62 - Remove [] brackets
+  2022-12-09 14:19:26 DEBUG Main:67 - Assign formatted string to new variable
+  2022-12-09 14:19:26 INFO  Main:69 - Formatted string assign successfully
+  2022-12-09 14:19:27 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
+  2022-12-09 14:19:27 INFO  Main:86 - Mapping was successful
+  
