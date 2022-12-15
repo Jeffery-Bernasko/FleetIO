@@ -2,6 +2,7 @@ import com.fasterxml.jackson.annotation.*;
 import jdk.jfr.DataAmount;
 
 import java.io.Serializable;
+import java.sql.*;
 
 @DataAmount
 

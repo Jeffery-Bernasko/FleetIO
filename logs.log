@@ -19,4 +19,572 @@
   2022-12-09 14:19:26 INFO  Main:69 - Formatted string assign successfully
   2022-12-09 14:19:27 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
   2022-12-09 14:19:27 INFO  Main:86 - Mapping was successful
-  
+  2022-12-13 09:51:12 DEBUG Main:21 - Sending a GET request to the fleetio API
+2022-12-13 09:51:12 INFO  Main:30 - Request was successful
+2022-12-13 09:51:12 DEBUG Main:34 - Receive response as a string
+2022-12-13 09:51:17 INFO  Main:38 - Response received successfully as a string
+2022-12-13 09:51:17 DEBUG Main:42 - Store response in a variable
+2022-12-13 09:51:17 INFO  Main:46 - Response of the body successfully saved in a variable
+2022-12-13 09:51:17 DEBUG Main:50 - Structure data to human readable format
+2022-12-13 09:51:18 INFO  Main:58 - Successfully structured data
+2022-12-13 09:51:18 DEBUG Main:62 - Remove [] brackets
+2022-12-13 09:51:18 DEBUG Main:67 - Assign formatted string to new variable
+2022-12-13 09:51:18 INFO  Main:69 - Formatted string assign successfully
+2022-12-13 09:51:18 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
+2022-12-13 17:52:10 DEBUG Main:21 - Sending a GET request to the fleetio API
+2022-12-13 17:52:10 INFO  Main:30 - Request was successful
+2022-12-13 17:52:10 DEBUG Main:34 - Receive response as a string
+2022-12-13 17:52:17 INFO  Main:38 - Response received successfully as a string
+2022-12-13 17:52:17 DEBUG Main:42 - Store response in a variable
+2022-12-13 17:52:17 INFO  Main:46 - Response of the body successfully saved in a variable
+2022-12-13 17:52:17 DEBUG Main:50 - Structure data to human readable format
+2022-12-13 17:52:18 INFO  Main:58 - Successfully structured data
+2022-12-13 17:52:18 DEBUG Main:62 - Remove [] brackets
+2022-12-13 17:52:19 DEBUG Main:67 - Assign formatted string to new variable
+2022-12-13 17:52:19 INFO  Main:69 - Formatted string assign successfully
+2022-12-13 17:52:21 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
+2022-12-13 17:52:21 INFO  Main:86 - Mapping was successful
+2022-12-13 17:55:14 DEBUG Main:21 - Sending a GET request to the fleetio API
+2022-12-13 17:55:14 INFO  Main:30 - Request was successful
+2022-12-13 17:55:14 DEBUG Main:34 - Receive response as a string
+2022-12-13 17:55:16 INFO  Main:38 - Response received successfully as a string
+2022-12-13 17:55:16 DEBUG Main:42 - Store response in a variable
+2022-12-13 17:55:16 INFO  Main:46 - Response of the body successfully saved in a variable
+2022-12-13 17:55:16 DEBUG Main:50 - Structure data to human readable format
+2022-12-13 17:55:16 INFO  Main:58 - Successfully structured data
+2022-12-13 17:55:16 DEBUG Main:62 - Remove [] brackets
+2022-12-13 17:55:16 DEBUG Main:67 - Assign formatted string to new variable
+2022-12-13 17:55:16 INFO  Main:69 - Formatted string assign successfully
+2022-12-13 17:55:16 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
+2022-12-13 17:55:17 INFO  Main:86 - Mapping was successful
+2022-12-13 17:57:42 DEBUG Main:21 - Sending a GET request to the fleetio API
+2022-12-13 17:57:42 INFO  Main:30 - Request was successful
+2022-12-13 17:57:42 DEBUG Main:34 - Receive response as a string
+2022-12-13 17:57:44 INFO  Main:38 - Response received successfully as a string
+2022-12-13 17:57:44 DEBUG Main:42 - Store response in a variable
+2022-12-13 17:57:44 INFO  Main:46 - Response of the body successfully saved in a variable
+2022-12-13 17:57:44 DEBUG Main:50 - Structure data to human readable format
+2022-12-13 17:57:44 INFO  Main:58 - Successfully structured data
+2022-12-13 17:57:44 DEBUG Main:62 - Remove [] brackets
+2022-12-13 17:57:44 DEBUG Main:67 - Assign formatted string to new variable
+2022-12-13 17:57:44 INFO  Main:69 - Formatted string assign successfully
+2022-12-13 17:57:44 DEBUG Main:77 - Read Values from json and map to attributes of the vehicle class
+2022-12-13 17:57:44 INFO  Main:86 - Mapping was successful
+2022-12-15 10:10:16 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:10:16 INFO  Main:32 - Request was successful
+2022-12-15 10:10:16 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:10:20 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:10:20 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:10:20 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:10:20 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:10:20 INFO  Main:60 - Successfully structured data
+2022-12-15 10:10:20 DEBUG Main:64 - Remove [] brackets
+2022-12-15 10:10:20 DEBUG Main:69 - Assign formatted string to new variable
+2022-12-15 10:10:20 INFO  Main:71 - Formatted string assign successfully
+2022-12-15 10:10:21 DEBUG Main:82 - Create an array object for vehicles DTO to accept response body and save in an array
+2022-12-15 10:14:14 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:14:14 INFO  Main:32 - Request was successful
+2022-12-15 10:14:14 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:14:16 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:14:16 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:14:16 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:14:16 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:14:16 INFO  Main:60 - Successfully structured data
+2022-12-15 10:14:16 DEBUG Main:65 - Remove [] brackets
+2022-12-15 10:14:16 DEBUG Main:70 - Assign formatted string to new variable
+2022-12-15 10:14:16 INFO  Main:72 - Formatted string assign successfully
+2022-12-15 10:14:17 DEBUG Main:83 - Create an array object for vehicles DTO to accept response body and save in an array
+2022-12-15 10:16:13 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:16:13 INFO  Main:32 - Request was successful
+2022-12-15 10:16:13 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:16:15 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:16:15 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:16:15 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:16:15 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:16:15 INFO  Main:60 - Successfully structured data
+2022-12-15 10:16:15 DEBUG Main:65 - Remove [] brackets
+
+2022-12-15 10:16:15 DEBUG Main:70 - Assign formatted string to new variable
+
+2022-12-15 10:16:15 INFO  Main:72 - Formatted string assign successfully
+
+2022-12-15 10:16:15 DEBUG Main:83 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:29:28 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:29:28 INFO  Main:32 - Request was successful
+2022-12-15 10:29:28 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:29:30 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:29:30 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:29:30 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:29:30 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:29:30 INFO  Main:60 - Successfully structured data
+2022-12-15 10:29:30 DEBUG Main:65 - Remove [] brackets
+
+2022-12-15 10:29:30 DEBUG Main:70 - Assign formatted string to new variable
+
+2022-12-15 10:29:30 INFO  Main:72 - Formatted string assign successfully
+
+2022-12-15 10:29:31 DEBUG Main:83 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:29:31 INFO  Main:85 - Array object created
+
+2022-12-15 10:29:31 DEBUG Main:88 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 10:29:31 INFO  Main:97 - Mapping was successful
+2022-12-15 10:35:53 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:35:53 INFO  Main:32 - Request was successful
+2022-12-15 10:35:53 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:35:59 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:35:59 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:35:59 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:35:59 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:35:59 INFO  Main:60 - Successfully structured data
+2022-12-15 10:35:59 DEBUG Main:65 - Remove [] brackets
+
+2022-12-15 10:35:59 DEBUG Main:70 - Assign formatted string to new variable
+
+2022-12-15 10:35:59 INFO  Main:72 - Formatted string assign successfully
+
+2022-12-15 10:35:59 DEBUG Main:83 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:36:00 INFO  Main:85 - Array object created
+
+2022-12-15 10:36:00 DEBUG Main:88 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 10:36:00 INFO  Main:97 - Mapping was successful
+2022-12-15 10:37:13 DEBUG Main:23 - Sending a GET request to the fleetio API
+2022-12-15 10:37:13 INFO  Main:32 - Request was successful
+2022-12-15 10:37:13 DEBUG Main:36 - Receive response as a string
+2022-12-15 10:37:15 INFO  Main:40 - Response received successfully as a string
+2022-12-15 10:37:15 DEBUG Main:44 - Store response in a variable
+2022-12-15 10:37:15 INFO  Main:48 - Response of the body successfully saved in a variable
+2022-12-15 10:37:15 DEBUG Main:52 - Structure data to human readable format
+2022-12-15 10:37:15 INFO  Main:60 - Successfully structured data
+2022-12-15 10:37:15 DEBUG Main:65 - Remove [] brackets
+
+2022-12-15 10:37:15 DEBUG Main:70 - Assign formatted string to new variable
+
+2022-12-15 10:37:15 INFO  Main:72 - Formatted string assign successfully
+
+2022-12-15 10:37:15 DEBUG Main:83 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:37:15 INFO  Main:85 - Array object created
+
+2022-12-15 10:37:15 DEBUG Main:88 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 10:37:15 INFO  Main:98 - Mapping was successful
+2022-12-15 10:44:56 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 10:44:56 INFO  Main:36 - Request was successful
+2022-12-15 10:44:56 DEBUG Main:40 - Receive response as a string
+2022-12-15 10:44:58 INFO  Main:44 - Response received successfully as a string
+2022-12-15 10:44:58 DEBUG Main:48 - Store response in a variable
+2022-12-15 10:44:58 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 10:44:58 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 10:44:58 INFO  Main:64 - Successfully structured data
+2022-12-15 10:44:58 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 10:44:58 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 10:44:58 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 10:44:59 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:44:59 INFO  Main:89 - Array object created
+
+2022-12-15 10:44:59 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 10:44:59 DEBUG Main:97 - Establish connection
+2022-12-15 10:46:20 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 10:46:20 INFO  Main:36 - Request was successful
+2022-12-15 10:46:20 DEBUG Main:40 - Receive response as a string
+2022-12-15 10:46:22 INFO  Main:44 - Response received successfully as a string
+2022-12-15 10:46:22 DEBUG Main:48 - Store response in a variable
+2022-12-15 10:46:22 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 10:46:22 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 10:46:22 INFO  Main:64 - Successfully structured data
+2022-12-15 10:46:22 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 10:46:22 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 10:46:22 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 10:46:23 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 10:46:23 INFO  Main:89 - Array object created
+
+2022-12-15 10:46:23 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 10:46:23 DEBUG Main:97 - Establish connection
+2022-12-15 10:46:23 INFO  Main:99 - Connection established successful
+2022-12-15 10:46:23 INFO  Main:107 - Mapping was successful
+2022-12-15 11:04:36 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 11:04:36 INFO  Main:39 - Request was successful
+2022-12-15 11:04:36 DEBUG Main:43 - Receive response as a string
+2022-12-15 11:04:42 INFO  Main:47 - Response received successfully as a string
+2022-12-15 11:04:42 DEBUG Main:51 - Store response in a variable
+2022-12-15 11:04:42 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 11:04:42 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 11:04:42 INFO  Main:67 - Successfully structured data
+2022-12-15 11:04:42 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 11:04:42 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 11:04:42 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 11:04:43 DEBUG Main:90 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:04:43 INFO  Main:92 - Array object created
+
+2022-12-15 11:04:43 DEBUG Main:95 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:04:43 DEBUG Main:100 - Establish connection
+2022-12-15 11:05:48 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 11:05:48 INFO  Main:39 - Request was successful
+2022-12-15 11:05:48 DEBUG Main:43 - Receive response as a string
+2022-12-15 11:05:50 INFO  Main:47 - Response received successfully as a string
+2022-12-15 11:05:50 DEBUG Main:51 - Store response in a variable
+2022-12-15 11:05:50 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 11:05:50 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 11:05:50 INFO  Main:67 - Successfully structured data
+2022-12-15 11:05:50 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 11:05:50 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 11:05:50 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 11:05:51 DEBUG Main:90 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:05:51 INFO  Main:92 - Array object created
+
+2022-12-15 11:05:51 DEBUG Main:95 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:05:51 DEBUG Main:100 - Establish connection
+2022-12-15 11:15:19 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:15:19 INFO  Main:36 - Request was successful
+2022-12-15 11:15:19 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:15:21 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:15:21 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:15:21 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:15:21 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:15:22 INFO  Main:64 - Successfully structured data
+2022-12-15 11:15:22 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:15:22 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:15:22 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:15:22 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:15:22 INFO  Main:89 - Array object created
+
+2022-12-15 11:15:22 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:15:22 DEBUG Main:97 - Establish connection
+2022-12-15 11:17:16 INFO  Main:118 - Connection established successful
+2022-12-15 11:17:16 INFO  Main:126 - Mapping was successful
+2022-12-15 11:20:56 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:20:56 INFO  Main:36 - Request was successful
+2022-12-15 11:20:56 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:20:59 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:20:59 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:20:59 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:20:59 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:20:59 INFO  Main:64 - Successfully structured data
+2022-12-15 11:20:59 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:20:59 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:20:59 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:20:59 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:21:00 INFO  Main:89 - Array object created
+
+2022-12-15 11:21:00 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:21:00 DEBUG Main:97 - Establish connection
+2022-12-15 11:21:01 INFO  Main:118 - Connection established successful
+2022-12-15 11:21:01 INFO  Main:126 - Mapping was successful
+2022-12-15 11:24:16 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:24:16 INFO  Main:36 - Request was successful
+2022-12-15 11:24:16 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:24:17 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:24:17 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:24:17 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:24:17 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:24:18 INFO  Main:64 - Successfully structured data
+2022-12-15 11:24:18 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:24:18 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:24:18 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:24:18 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:24:18 INFO  Main:89 - Array object created
+
+2022-12-15 11:24:18 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:24:18 DEBUG Main:97 - Establish connection
+2022-12-15 11:25:17 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:25:17 INFO  Main:36 - Request was successful
+2022-12-15 11:25:17 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:25:19 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:25:19 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:25:19 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:25:19 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:25:19 INFO  Main:64 - Successfully structured data
+2022-12-15 11:25:19 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:25:19 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:25:19 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:25:19 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:25:19 INFO  Main:89 - Array object created
+
+2022-12-15 11:25:19 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:25:19 DEBUG Main:97 - Establish connection
+2022-12-15 11:27:05 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:27:05 INFO  Main:36 - Request was successful
+2022-12-15 11:27:05 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:27:07 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:27:07 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:27:07 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:27:07 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:27:07 INFO  Main:64 - Successfully structured data
+2022-12-15 11:27:07 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:27:07 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:27:07 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:27:07 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:27:07 INFO  Main:89 - Array object created
+
+2022-12-15 11:27:07 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:27:07 DEBUG Main:97 - Establish connection
+2022-12-15 11:30:20 DEBUG Main:27 - Sending a GET request to the fleetio API
+2022-12-15 11:30:20 INFO  Main:36 - Request was successful
+2022-12-15 11:30:20 DEBUG Main:40 - Receive response as a string
+2022-12-15 11:30:22 INFO  Main:44 - Response received successfully as a string
+2022-12-15 11:30:22 DEBUG Main:48 - Store response in a variable
+2022-12-15 11:30:22 INFO  Main:52 - Response of the body successfully saved in a variable
+2022-12-15 11:30:22 DEBUG Main:56 - Structure data to human readable format
+2022-12-15 11:30:22 INFO  Main:64 - Successfully structured data
+2022-12-15 11:30:22 DEBUG Main:69 - Remove [] brackets
+
+2022-12-15 11:30:22 DEBUG Main:74 - Assign formatted string to new variable
+
+2022-12-15 11:30:22 INFO  Main:76 - Formatted string assign successfully
+
+2022-12-15 11:30:22 DEBUG Main:87 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 11:30:23 INFO  Main:89 - Array object created
+
+2022-12-15 11:30:23 DEBUG Main:92 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 11:30:23 DEBUG Main:97 - Establish connection
+2022-12-15 11:30:23 INFO  Main:123 - Connection established successful
+2022-12-15 11:30:23 INFO  Main:131 - Mapping was successful
+2022-12-15 17:01:42 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:01:43 INFO  Main:39 - Request was successful
+2022-12-15 17:01:43 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:01:44 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:01:44 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:01:44 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:01:44 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:01:44 INFO  Main:67 - Successfully structured data
+2022-12-15 17:01:44 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:01:44 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:01:44 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:01:45 DEBUG Main:90 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:01:45 INFO  Main:92 - Array object created
+
+2022-12-15 17:01:45 DEBUG Main:95 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:01:45 DEBUG Main:100 - Establish connection
+2022-12-15 17:01:46 INFO  Main:145 - Connection established successful
+2022-12-15 17:01:46 INFO  Main:153 - Mapping was successful
+2022-12-15 17:02:34 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:02:34 INFO  Main:39 - Request was successful
+2022-12-15 17:02:34 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:02:36 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:02:36 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:02:36 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:02:36 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:02:36 INFO  Main:67 - Successfully structured data
+2022-12-15 17:02:36 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:02:36 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:02:36 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:02:36 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:02:36 INFO  Main:94 - Array object created
+
+2022-12-15 17:02:36 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:02:36 DEBUG Main:102 - Establish connection
+2022-12-15 17:02:37 INFO  Main:147 - Connection established successful
+2022-12-15 17:02:37 INFO  Main:155 - Mapping was successful
+2022-12-15 17:04:03 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:04:03 INFO  Main:39 - Request was successful
+2022-12-15 17:04:03 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:04:06 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:04:06 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:04:06 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:04:06 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:04:06 INFO  Main:67 - Successfully structured data
+2022-12-15 17:04:06 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:04:06 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:04:06 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:04:06 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:04:06 INFO  Main:94 - Array object created
+
+2022-12-15 17:04:06 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:04:06 DEBUG Main:102 - Establish connection
+2022-12-15 17:04:06 INFO  Main:147 - Connection established successful
+2022-12-15 17:04:06 INFO  Main:155 - Mapping was successful
+2022-12-15 17:34:46 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:34:46 INFO  Main:39 - Request was successful
+2022-12-15 17:34:46 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:34:49 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:34:49 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:34:49 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:34:49 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:34:49 INFO  Main:67 - Successfully structured data
+2022-12-15 17:34:49 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:34:49 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:34:49 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:34:50 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:34:50 INFO  Main:94 - Array object created
+
+2022-12-15 17:34:50 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:34:50 DEBUG Main:102 - Establish connection
+2022-12-15 17:35:23 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:35:23 INFO  Main:39 - Request was successful
+2022-12-15 17:35:23 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:35:25 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:35:25 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:35:25 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:35:25 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:35:25 INFO  Main:67 - Successfully structured data
+2022-12-15 17:35:25 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:35:25 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:35:25 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:35:26 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:35:26 INFO  Main:94 - Array object created
+
+2022-12-15 17:35:26 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:35:26 DEBUG Main:102 - Establish connection
+2022-12-15 17:37:41 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:37:41 INFO  Main:39 - Request was successful
+2022-12-15 17:37:41 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:37:43 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:37:43 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:37:43 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:37:43 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:37:43 INFO  Main:67 - Successfully structured data
+2022-12-15 17:37:43 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:37:43 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:37:43 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:37:43 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:37:43 INFO  Main:94 - Array object created
+
+2022-12-15 17:37:43 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:37:43 DEBUG Main:102 - Establish connection
+2022-12-15 17:44:51 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:44:51 INFO  Main:39 - Request was successful
+2022-12-15 17:44:51 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:44:54 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:44:54 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:44:54 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:44:54 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:44:54 INFO  Main:67 - Successfully structured data
+2022-12-15 17:44:54 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:44:54 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:44:54 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:44:55 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:44:55 INFO  Main:94 - Array object created
+
+2022-12-15 17:44:55 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:44:55 DEBUG Main:102 - Establish connection
+2022-12-15 17:45:58 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:45:58 INFO  Main:39 - Request was successful
+2022-12-15 17:45:58 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:46:00 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:46:00 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:46:00 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:46:00 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:46:00 INFO  Main:67 - Successfully structured data
+2022-12-15 17:46:00 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:46:00 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:46:00 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:46:00 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:46:00 INFO  Main:94 - Array object created
+
+2022-12-15 17:46:00 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:46:00 DEBUG Main:102 - Establish connection
+2022-12-15 17:47:27 DEBUG Main:30 - Sending a GET request to the fleetio API
+2022-12-15 17:47:27 INFO  Main:39 - Request was successful
+2022-12-15 17:47:27 DEBUG Main:43 - Receive response as a string
+2022-12-15 17:47:29 INFO  Main:47 - Response received successfully as a string
+2022-12-15 17:47:29 DEBUG Main:51 - Store response in a variable
+2022-12-15 17:47:29 INFO  Main:55 - Response of the body successfully saved in a variable
+2022-12-15 17:47:29 DEBUG Main:59 - Structure data to human readable format
+2022-12-15 17:47:29 INFO  Main:67 - Successfully structured data
+2022-12-15 17:47:29 DEBUG Main:72 - Remove [] brackets
+
+2022-12-15 17:47:29 DEBUG Main:77 - Assign formatted string to new variable
+
+2022-12-15 17:47:29 INFO  Main:79 - Formatted string assign successfully
+
+2022-12-15 17:47:30 DEBUG Main:92 - Create an array object for vehicles DTO to accept response body and save in an array
+
+2022-12-15 17:47:30 INFO  Main:94 - Array object created
+
+2022-12-15 17:47:30 DEBUG Main:97 - Read Values from json and map to attributes of the vehicle class
+
+2022-12-15 17:47:30 DEBUG Main:102 - Establish connection
+2022-12-15 17:47:30 INFO  Main:139 - Connection established successful
+2022-12-15 17:47:30 INFO  Main:147 - Mapping was successful
