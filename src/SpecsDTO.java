@@ -13,11 +13,15 @@ public class SpecsDTO {
     @JsonProperty("drive_type")
     private String driveType;
 
-    @JsonProperty("engine_description")
-    private String engineDescription;
+    @JsonProperty("created_at")
+    private String created_at;
 
-    @JsonProperty("max_hp")
-    private String maxHP;
+    @JsonProperty("updated_at")
+    private String updated_at;
+
+    public int getVehicleId() {
+        return vehicleId;
+    }
 
     public String getBodyType() {
         return bodyType;
@@ -27,11 +31,11 @@ public class SpecsDTO {
         return driveType;
     }
 
-    public String getEngineDescription() {
-        return engineDescription;
+    public String getCreated_at() {
+        return created_at;
     }
 
-    public String getMaxHP() {
-        return maxHP;
+    public String getUpdated_at() {
+        return updated_at;
     }
 }

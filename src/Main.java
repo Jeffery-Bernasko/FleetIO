@@ -19,17 +19,28 @@ public class Main {
     //Defining the logger object
     static Logger log = Logger.getLogger(Main.class);
 
+    static final String Password  = "P_eter20";
+    static Connection con;
+
+    static {
+        try {
+            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/PeterBe", "PeterBe", Password);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     public static void main(String[] args) throws IOException, InterruptedException, SQLException {
 
-        final String Password  = "P_eter20";
+
 
         //An HttpRequest obj together with its method to GET response from the API
 
         //Log debug to send a GET request to the API
         log.debug("Sending a GET request to the fleetio API");
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://secure.fleetio.com/api/v1/vehicles?q[id_eq]=1591593"))
+                .uri(URI.create("https://secure.fleetio.com/api/v1/vehicles"))
                 .header("Authorization", "Token 463227032b0367550695cf350481eb81d9df46af")
                 .header("Account-Token", " 4cf4569fb1")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
@@ -78,7 +89,7 @@ public class Main {
        String prettyJsonString = pretty.toJson(myString);
        log.info("Formatted string assign successfully\n");
 
-        System.out.println(prettyJsonString);
+
 
 
         //Instance of an Object Mapper
@@ -93,51 +104,62 @@ public class Main {
         VehiclesDTO[] vehiclesDTO = map.readValue(results,VehiclesDTO[].class);
         log.info("Array object created\n");
 
-        // create instance of Vehicles class that whose class attributes are mapped from api response
-        log.debug("Read Values from json and map to attributes of the vehicle class\n");
-        Vehicles myCar = map.readValue(myString, Vehicles.class);
-
-        //Working with database
-        //Connecting to the database
-        log.debug("Establish connection");
-        Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/PeterBe", "PeterBe", Password);
-
-        String query = "INSERT INTO vehicles (id, name, licensePlate,  model, color)" + " VALUES (?, ?, ?,?,?)";
-        PreparedStatement ps = con.prepareStatement(query);
-
-
-//
-        for (int i = 0; i < vehiclesDTO.length;i++){
-
-            ps.setInt(1, vehiclesDTO[i].getId());
-
-            ps.setString(2, vehiclesDTO[i].getName());
-
-            ps.setString(3, vehiclesDTO[i].getLicensePlate());
-
-
-            ps.setString(4, vehiclesDTO[i].getModel());
-
-            ps.setString(5, vehiclesDTO[i].getColor());
-
-             ps.execute();
-           System.out.println("Rows inserted.....");
-
-       }
-        ps.close();
-        log.info("Connection established successful");
-        // print object values to verify if the properties mapped successfully
+        populateVehiclesTables(vehiclesDTO);
+        populateSpecsTable(vehiclesDTO);
         System.out.println(" ");
-        System.out.println(myCar.getName());
-        System.out.println(myCar.getLicense_plate());
-        System.out.println(myCar.getColor());
-        System.out.println(myCar.getId());
+//
 
         log.info("Mapping was successful");
     }
 
 
+    // A method to populate the fields of the vehicles table in the database
+    public static void populateVehiclesTables(VehiclesDTO[] dtos) throws SQLException {
+//
+        String query = "INSERT INTO vehicles (id, name, licensePlate,  model, color,year)" + " VALUES (?, ?, ?,?,?,?)";
+        PreparedStatement ps = con.prepareStatement(query);
 
+        for (int i = 0; i < dtos.length;i++){
+
+            ps.setInt(1, dtos[i].getId());
+
+            ps.setString(2, dtos[i].getName());
+
+            ps.setString(3, dtos[i].getLicensePlate());
+
+
+            ps.setString(4, dtos[i].getModel());
+
+            ps.setString(5, dtos[i].getColor());
+
+            ps.setString(6, dtos[i].getYear());
+
+            ps.execute();
+
+        }
+    }
+
+    //A method to populate the fields of the specs table in the database
+    public static void populateSpecsTable(VehiclesDTO[] specdtos) throws SQLException{
+        String query = "INSERT INTO SPECS(vehicle_id, body_type, drive_type, created_at, updated_at)" +
+                " VALUES" + "(?, ?, ?, ?, ?)";
+
+        PreparedStatement ps = con.prepareStatement(query);
+
+        for(int i = 0; i < specdtos.length;i++){
+            ps.setInt(1,specdtos[i].getSpecs().getVehicleId());
+
+            ps.setString(2,specdtos[i].getSpecs().getBodyType());
+
+            ps.setString(3,specdtos[i].getSpecs().getDriveType());
+
+            ps.setString(4,specdtos[i].getSpecs().getCreated_at());
+
+            ps.setString(5,specdtos[i].getSpecs().getUpdated_at());
+
+            ps.execute();
+        }
+    }
     }
 
 

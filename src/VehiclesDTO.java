@@ -4,6 +4,10 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -11,13 +15,18 @@ import java.io.Serializable;
 
 public class VehiclesDTO implements Serializable {
 
+
+
     @JsonProperty("name")
     private String name;
 
     @JsonProperty("id")
     private int id;
 
-    @JsonProperty("licensePlate")
+    @JsonProperty("year")
+    private String year;
+
+    @JsonProperty("license_plate")
     private String licensePlate;
 
     @JsonProperty("make")
@@ -42,6 +51,10 @@ public class VehiclesDTO implements Serializable {
 
     public int getId() {
         return id;
+    }
+
+    public String getYear() {
+        return year;
     }
 
     public String getLicensePlate() {
@@ -89,6 +102,13 @@ public class VehiclesDTO implements Serializable {
         this.color = color;
     }
 
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public void setSpecs(SpecsDTO specs) {
+        Specs = specs;
+    }
 
 
 }

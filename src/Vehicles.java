@@ -23,6 +23,9 @@ import java.sql.*;
      @JsonProperty("vehicle_type_name")
      public String vehicle_type_name;
 
+    @JsonProperty("year")
+    private String year;
+
      @JsonProperty("license_plate")
      public String license_plate;
 
@@ -123,4 +126,11 @@ import java.sql.*;
          this.account_id = account_id;
      }
 
- }
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+}
