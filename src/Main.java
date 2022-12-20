@@ -78,6 +78,17 @@ public class Main {
         log.info("Successfully structured data");
         System.out.println(" ");
 
+        //Write results into a json file
+        try {
+            FileWriter writer = new FileWriter("Results.json");
+            writer.write(prettyJson);
+            writer.close();
+            System.out.println("Successfully wrote to the file");
+        } catch (IOException e){
+            System.out.println("Error occurred");
+            e.printStackTrace();
+        }
+
         //A new string to use the substring method to remove the square bracket from the beginning of the response body since it is come as a List
         //Log debug to remove the [] from the beginning of the data
         log.debug("Remove [] brackets\n");
@@ -117,22 +128,23 @@ public class Main {
     public static void populateVehiclesTables(VehiclesDTO[] dtos) throws SQLException {
 //
         String query = "INSERT INTO vehicles (id, name, licensePlate,  model, color,year)" + " VALUES (?, ?, ?,?,?,?)";
+
         PreparedStatement ps = con.prepareStatement(query);
 
-        for (int i = 0; i < dtos.length;i++){
+        for (VehiclesDTO dto : dtos) {
 
-            ps.setInt(1, dtos[i].getId());
+            ps.setInt(1, dto.getId());
 
-            ps.setString(2, dtos[i].getName());
+            ps.setString(2, dto.getName());
 
-            ps.setString(3, dtos[i].getLicensePlate());
+            ps.setString(3, dto.getLicensePlate());
 
 
-            ps.setString(4, dtos[i].getModel());
+            ps.setString(4, dto.getModel());
 
-            ps.setString(5, dtos[i].getColor());
+            ps.setString(5, dto.getColor());
 
-            ps.setString(6, dtos[i].getYear());
+            ps.setString(6, dto.getYear());
 
             ps.execute();
 
@@ -146,16 +158,16 @@ public class Main {
 
         PreparedStatement ps = con.prepareStatement(query);
 
-        for(int i = 0; i < specdtos.length;i++){
-            ps.setInt(1,specdtos[i].getSpecs().getVehicleId());
+        for (VehiclesDTO specdto : specdtos) {
+            ps.setInt(1, specdto.getSpecs().getVehicleId());
 
-            ps.setString(2,specdtos[i].getSpecs().getBodyType());
+            ps.setString(2, specdto.getSpecs().getBodyType());
 
-            ps.setString(3,specdtos[i].getSpecs().getDriveType());
+            ps.setString(3, specdto.getSpecs().getDriveType());
 
-            ps.setString(4,specdtos[i].getSpecs().getCreated_at());
+            ps.setString(4, specdto.getSpecs().getCreated_at());
 
-            ps.setString(5,specdtos[i].getSpecs().getUpdated_at());
+            ps.setString(5, specdto.getSpecs().getUpdated_at());
 
             ps.execute();
         }

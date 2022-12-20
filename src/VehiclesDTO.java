@@ -4,10 +4,6 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -75,39 +71,6 @@ public class VehiclesDTO implements Serializable {
 
     public String getColor() {
         return color;
-    }
-
-    // Setters
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setLicensePlate(String licensePlate) {
-        this.licensePlate = licensePlate;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public void setYear(String year) {
-        this.year = year;
-    }
-
-    public void setSpecs(SpecsDTO specs) {
-        Specs = specs;
     }
 
 
